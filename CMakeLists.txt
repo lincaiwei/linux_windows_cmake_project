@@ -2,10 +2,11 @@
 cmake_minimum_required (VERSION 2.8)
 #项目名称, 参数值是 main, 该命令表示项目的名称是 main
 project(main)
-# 目标程序名
-aux_source_directory(. DIR_TOOT_SRCS)
+
+#把当前目录(./)下所有源代码文件和头文件加入变量SRC_LIST
+aux_source_directory(. SRC_LIST)
 # 显示指定使用的C编译器 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 # 指定生成目标
-add_executable(${PROJECT_NAME} ${DIR_TOOT_SRCS})
+add_executable(${PROJECT_NAME} ${SRC_LIST})
 
