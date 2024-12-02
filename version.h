@@ -2,10 +2,10 @@
 #define _VERSION__H_
 
 #define SW_VERSION    "v1.00.0.0"
-#define GIT_VERSION "b5c8b1c-dev"
+#define GIT_VERSION "b63df6d-dev"
 #define GIT_BRANCH "main"
-#define GIT__BRANCH__VERSION "main - b5c8b1c-dev"
-#define BUILD_DATE " cwlin Nov 30 2024 17:50:05"
+#define GIT__BRANCH__VERSION "main - b63df6d-dev"
+#define BUILD_DATE " caiwei.lin Dec 02 2024 22:01:02"
 
 #define SW_FW_NAME   			"app"
 

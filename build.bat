@@ -9,7 +9,7 @@ echo "TOPDIR = %TOPDIR%"
 echo "build_out_dir = %build_out_dir%"
 echo "install_dir = %install_dir%"
 
-set software_version=V1.0.0
+set software_version=v1.0.0
 
 mkdir output
 ::mkdir bin
